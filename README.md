@@ -34,3 +34,11 @@ print T[3.3, -2.1, 11.1, 0.7]
   <img src="https://github.com/MeepMoop/tilecoding/blob/master/examples/tc_sincos.png"><br>
   8x8 tile coder with 8 tilings approximating f(x, y) = sin(x) + cos(y) + <i>N</i>(0, 0.1)<br><br>
 </p>
+
+# Modifications to the original repo:
+* Add function ```void load_weights(file_path)```
+* Add function ```weights get_weights()```
+* Add function ```void set_weights(weights)```
+* Add function ```np.ndarray predict(input_data)```
+* Add function ```loss train_on_batch(Xs, ys)```
+* Predict multiple values.
