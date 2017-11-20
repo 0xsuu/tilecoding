@@ -36,6 +36,7 @@ print T[3.3, -2.1, 11.1, 0.7]
 </p>
 
 # Modifications to the original repo:
+* Add function ```void save_weights(file_path)```
 * Add function ```void load_weights(file_path)```
 * Add function ```weights get_weights()```
 * Add function ```void set_weights(weights)```
